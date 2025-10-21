@@ -50,9 +50,13 @@ nav a {
     line-height: 8vh;
     font-size: 1.2em;
     text-decoration: none;
+    border-radius: 5px;
 }
 
-
+nav a:hover {
+    background-color: var(--contrast-color);
+    color: var(--dark-color);
+}
 
 hr {
     width: 95%;
