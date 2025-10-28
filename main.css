@@ -19,7 +19,7 @@ body {
     flex-direction: column;  
     min-height: 100vh;
     padding: 1vw;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica;
     background-color: var(--secondary-color);
 }
 
@@ -153,13 +153,29 @@ aside{
     align-items: center;
 }
 button{
-    padding: 1vw;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    padding: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
     background-color: var(--main-color);
     border: none;
     border-radius: 2px;
     font-size: 1em;
     color: var(--contrast-color);
     text-align: center;
+}
+
+
+.przycisk{
+    padding: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 2px;
+    font-size: 1em;
+    color: var(--contrast-color);
+    text-align: center;
+}
+.plec{
+    margin: 10px;
 }
